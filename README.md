@@ -29,7 +29,7 @@ Creating school timetables is often a tedious, error-prone task. As someone pass
      - Maximum teaching load (default: 7 periods/day).
      - Balanced subject distribution across classes.
 3. **Generate Timetable**:
-   - The program creates a clear, color-coded Excel file (`error_free_timetable.xlsx`) with the generated schedule.
+   - The program creates a clear, color-coded Excel file (`timetable.xlsx`) with the generated schedule.
 4. **Output**:
    - Each cell represents a teacher assigned to a specific period and class, with subject colors for better visualization.
 
