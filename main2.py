@@ -31,7 +31,7 @@ teachers = [teacher for teacher in teachers if teacher not in absent_teacher]
 #generating a random light color code
 def generate_light_color():
     r = random.randint(200,255)
-    g = random.randint(200,255)
+    g = random.randint(250,260)
     b = random.randint(200,255)
     
     return f"{r:02X}{g:02X}{b:02X}"
@@ -54,3 +54,13 @@ num_periods = 8
 max_periods_per_teacher = 7
 
 #Initialing table and tracking the data
+timetable = {class_section: ["" for _ in range(num_periods)] for class_section in classes}
+teacher_period_count = {teacher:0 for teacher in teachers}
+class_subject_count = {class_section: {subjects:0 for subjects in subject} for class_section in classes}
+teacher_assigned_periods = {teacher: set() for teacher in teachers}
+# print(timetable)  --> For purpose of testing
+# print(teacher_assigned_periods) --> For purpose of testing
+# print(teacher_period_count) --> For purpose of testing
+# print(class_subject_count) --> For purpose of testing
+
+# Assigning teachers ensuring all conditions are met
