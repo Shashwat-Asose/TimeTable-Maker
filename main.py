@@ -146,5 +146,5 @@ for period in range(num_periods):
         cell.border = border
 
 # Step 9: Save the file
-workbook.save("error_free_timetable.xlsx")
-print("Timetable saved as 'error_free_timetable.xlsx'!")
+workbook.save("timetable.xlsx")
+print("Timetable saved as 'timetable.xlsx'!")
