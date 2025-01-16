@@ -39,5 +39,5 @@ Creating school timetables is often a tedious, error-prone task. As someone pass
 ```plaintext
 📁 Teacher-Timetable-Generator/
 ├── 📄 teachers.txt       # Input file with teacher names and subjects
-├── 📄 timetable.py       # Main Python script
+├── 📄 main.py       # Main Python script
 └── 📄 README.md          # This readme file
