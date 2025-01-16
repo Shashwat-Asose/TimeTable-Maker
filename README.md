@@ -1,5 +1,5 @@
 # 📅 **Teacher Timetable Generator**
-![Logo](./logo.png)
+
 An intelligent and dynamic Python-based scheduling solution for educational institutions! 🎓  
 Say goodbye to the manual, time-consuming process of creating timetables. This program automates teacher scheduling while considering real-world constraints like teacher availability, maximum workload, and non-consecutive teaching periods.
 
